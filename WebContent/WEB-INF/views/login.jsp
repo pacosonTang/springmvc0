@@ -8,6 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html charset=UTF-8">
 </head>
 <body>	
+	<jsp:include page="header.jsp"></jsp:include>
 	<form action="<c:url value='/login/login'/>" method="POST" >		
 		<p><label>用户名: </label>
 		<input type="text" name="username" placeholder="pacoson"/></p>  		

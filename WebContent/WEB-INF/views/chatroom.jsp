@@ -95,6 +95,7 @@
 </head>
 
 <body>	
+	<jsp:include page="header.jsp" />
 	<div align="center"><table>
 		<tr valign="top">
 			<td>

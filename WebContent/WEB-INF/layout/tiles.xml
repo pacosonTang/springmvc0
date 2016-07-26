@@ -9,14 +9,6 @@
     <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
   </definition>
 
-  <definition name="home" extends="base">
-    <put-attribute name="body" value="/WEB-INF/views/home.jsp" />
-  </definition>
-
-  <definition name="registerForm" extends="base">
-    <put-attribute name="body" value="/WEB-INF/views/registerForm.jsp" />
-  </definition>
-
   <definition name="profile" extends="base">
     <put-attribute name="body" value="/WEB-INF/views/profile.jsp" />
   </definition>
@@ -29,16 +21,8 @@
     <put-attribute name="body" value="/WEB-INF/views/spittle.jsp" />
   </definition>
 
- <definition name="login" extends="base">
-    <put-attribute name="body" value="/WEB-INF/views/login.jsp" />
-  </definition>
-  
   <definition name="paging" extends="base">
     <put-attribute name="body" value="/WEB-INF/views/paging.jsp" />
-  </definition>
-  
-  <definition name="chatroom" extends="base">
-    <put-attribute name="body" value="/WEB-INF/views/chatroom.jsp" />
   </definition>
   
 </tiles-definitions>

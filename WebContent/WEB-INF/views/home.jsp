@@ -9,21 +9,16 @@
 		<meta http-equiv="Content-Type" content="text/html charset=UTF-8"> <!-- 浏览器解析jsp的编码 -->
 	</head>
 	
-	<body>
-		
+	<body>		
+		<jsp:include page="header.jsp"></jsp:include>
 		<c:if test="${username == null}">
 			<a href="<c:url value="/login/loginform" />">登录</a> <br/>
 		</c:if>
 		<c:if test="${username != null}">
 			<a href="<c:url value="/chat/chatroom" />">进入聊天室</a> <br/>
 		</c:if>
-		<a href="<c:url value="/websocket/sendtext" />">WebSocket client</a> <br/>
-		<a href="<c:url value="/websocket/sendtext" />">WebSocket client</a> <br/>
-		<a href="<c:url value="/websockjs/sendtext" />">WebSockJS client</a> <br/>
-		<a href="<c:url value="/smack" />">smack communication client</a> <br/>
-		<a href="<c:url value="/spittle/list" />">Spittle List</a> <br/>
-		<a href="<c:url value="/spitter/list" />">Spitter List</a> <br/>
-		<a href="<c:url value="/spitter/register" />">Register</a> <br/>
-		<a href="<c:url value="/spitter/transmit" />">transmit parameters</a> <br/>
+		<a href="<c:url value="/chat/peer" />">端对端聊天</a> <br/>
+		<a href="<c:url value="/chat/group" />">群组聊天</a> <br/>
+		 
 	</body>
 </html>
