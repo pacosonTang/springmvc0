@@ -39,6 +39,16 @@ public class ChatController {
 		this.repository = repository;		
 	}
 	
+	@RequestMapping("/peertopeerchat")
+	public String showPeerToPeerChat() {
+		return "peertopeerchat";
+	}
+	
+	@RequestMapping("/groupchat")
+	public String showGroupChat() {
+		return "groupchat";
+	}
+	
 	// access to chat room.
 	@RequestMapping(value="/chatroom", method=RequestMethod.GET)
 	public String showChatroom(HttpSession session) {

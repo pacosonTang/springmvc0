@@ -1,3 +1,4 @@
+// XMPP服务器BOSH地址  
 var BOSH_SERVICE = 'http://lenovo-pc:7070/http-bind/';  
   
 // XMPP连接  

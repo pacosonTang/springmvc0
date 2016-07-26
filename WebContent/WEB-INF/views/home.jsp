@@ -17,8 +17,8 @@
 		<c:if test="${username != null}">
 			<a href="<c:url value="/chat/chatroom" />">进入聊天室</a> <br/>
 		</c:if>
-		<a href="<c:url value="/chat/peer" />">端对端聊天</a> <br/>
-		<a href="<c:url value="/chat/group" />">群组聊天</a> <br/>
+		<a href="<c:url value="/chat/peertopeerchat" />">端对端聊天</a> <br/>
+		<a href="<c:url value="/chat/groupchat" />">群组聊天</a> <br/>
 		 
 	</body>
 </html>
